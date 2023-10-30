@@ -1,5 +1,5 @@
 ---
-title: "Jasmine Zhang Personal Website"
+title: "Jasmine Zhang's Website"
 output: 
   html_document:
     toc: true
@@ -7,4 +7,7 @@ output:
     theme: cerulean
 ---
 
+## Background  
+
+Hi Everyone! My name is Jasmine Zhang and is currently a first year student in MS Biostatistics at Columbia University. 
 

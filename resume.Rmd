@@ -1,0 +1,48 @@
+---
+title: "Personal CV"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Education  
+**Columbia University, Mailman School of Public Health**[New York, NY]{style="float:right"}  
+M.S. in Biostatistics | Public Health Data Science track[Aug. 2023– May. 2025 (Expected)]{style="float:right"}
+
+**Emory University**[Atlanta, GA]{style="float:right"}  
+B.S. in Applied Mathematics and Statistics | Minor in Nutrition Science[Aug. 2019– May. 2023]{style="float:right"}  
+*Cumulative GPA:* 4.0/4.0  
+*Honor:* Dean’s List in every semester, Phi Eta Sigma National Honor Society (2020)  
+*Relevant coursework:* Statistical Computing, Numerical Analysis, Machine Learning & Causal Analysis, Epidemiology
+
+
+## Work Experience
+**Amgen** [Shanghai, China]{style="float:right"}  
+*Business Development Intern* [Jun. 2023 – Aug. 2023]{style="float:right"}  
+
+* Selected top 5 out of 200+ Oncology products utilizing a thorough screening process including analyzing clinical trial outcomes, risk factors, and licensing possibility using multiple drug information databases  
+* Collaborated with a team to provide a comprehensive analysis of TGCT drug pexidartinib by constructing questionnaire for specialist clinics, comparing competitive drugs, and building profit models with MS Excel  
+* Identified 20 out of 1000+ potential investors after analyzing venture capital firms' funding and involvement in healthcare projects for prospective investment  
+* Supported deal structuring of Prolia by analyzing sales performance based on geographic areas and giving insights on potential territories and sales forecast  
+
+**iProspect** [Shanghai, China]{style="float:right"}  
+*Search Engine Marketing Intern* [Jun. 2021 – Aug. 2021]{style="float:right"}  
+
+* Extracted on average 100K+ data weekly from multiple search engine databases; analyzed advertisement effectiveness with Excel and Google Analytics  
+* Conducted comprehensive market research to incorporate industry trends and consumer behavior into brainstorming campaign strategies to companies including Nippon Paint, Ikea, Polestar, and Heinz  
+* Designed and launched Heinz infant product digital marketing project on RED; optimized keywords search list and increased impression and CTR by 100%; decreased CPC by 50%  
+* Identified differentiations in advertisement performance between search engines and provided recommendations to maximize ROI  
+* Created visualizations and reports weekly using MS Excel to communicate data-driven insights to companies
+
+## Projects
+**Emory Sustainability Analysis**[Atlanta, GA]{style="float:right"}    
+*Research Analyst* [Jan. 2022 – May. 2022]{style="float:right"}
+
+* Processed 2k+ survey data with R and ANOVA test to analyze trends for how different student status and grade level vary in their attitudes regarding sustainability issues
+* Integrated findings and provided solutions to improve campus involvement in sustainability
+
+## Additional Skills
+**Technical Skills:** R, MATLAB, Python, SQL, Java, Advanced Excel, Microsoft Office, LaTeX  
+**Languages:**  Native Mandarin, Proficient English, and Intermediate German
+
