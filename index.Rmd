@@ -9,5 +9,24 @@ output:
 
 ## Background  
 
-Hi Everyone! My name is Jasmine Zhang and is currently a first year student in MS Biostatistics at Columbia University. 
+Hi Everyone! My name is Jasmine Zhang and is currently a first year student in MS Biostatistics at Columbia University. I am from Shanghai, China.
 
+![](images/shanghai.jpeg){width=30%}
+
+
+I went to Fairmont Preparatory Academy in Anaheim, CA.
+
+![](images/highschool.jpeg){width=30%}
+
+
+
+I lived in Atlanta for 4 years and studied at Emory University.
+
+![](images/emory.jpeg){width=30%}
+
+
+## Personal Interests
+
+I watch a lot soccar when I have time, especially Premier League. My favorite football club is Manchester City.
+
+![](images/mancity.jpeg){width=70%}
