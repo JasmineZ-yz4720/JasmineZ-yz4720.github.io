@@ -1,0 +1,64 @@
+---
+title: "flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data("rest_inspec")
+rest_inspec = rest_inspec |> 
+  select(borough = boro, cuisine = cuisine_description, score, zipcode, grade) |> 
+  filter(grade %in% c("A", "B", "C"),
+         borough == "MANHATTAN")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r boxplot}
+cuisine_list = rest_inspec |> 
+  count(cuisine) |> 
+  filter(n>1000)
+rest_inspec |> 
+  filter(cuisine == c(cuisine_list$cuisine)) |> 
+  mutate(cuisine = fct_recode(cuisine, "Latin" = "Latin (Cuban, Dominican, Puerto Rican, South & Central American)"),
+                         cuisine = fct_reorder(cuisine, score)) |>
+  plot_ly(y = ~score, color = ~cuisine, 
+          type = "box") |> 
+  layout(title = "Score Received by Different Cuisine Restaurants in Manhattan")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r barplot}
+rest_inspec |> 
+  mutate(grade = as.factor(grade)) |> 
+  count(grade) |> 
+  plot_ly(x = ~ grade, y = ~n, type = "bar")|> 
+  layout(title = "Manhattan Restaurants by Grade")
+```
+
+### Chart C
+
+```{r scatterplot}
+rest_inspec |> 
+  filter(cuisine == "American") |> 
+  mutate(zipcode = as.character(zipcode),
+         text_label = str_c("Zipcode: ", zipcode, "\nScore: ", score)) |> 
+  plot_ly(x = ~ zipcode, y = ~score, color = ~grade, 
+          text = ~text_label, type = "scatter")|> 
+  layout(title = "Score Distribution by Zipcode")
+```
+
