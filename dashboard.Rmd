@@ -1,5 +1,5 @@
 ---
-title: "flexdashboard"
+title: "flexdashboard: Manhanttan Restaurant Inspection Results"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
